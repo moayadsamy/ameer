@@ -1,0 +1,229 @@
+:root {
+  --main-color: #5a5a5a6e;
+  --main-color-alt: #a87ce4;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: 80%;
+}
+.v3 {
+  display: flex;
+  align-items: center;
+  background-color: #ddc9fa;
+  width: 30%;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+.v3 p {
+  color: var(--main-color-alt);
+}
+.v3 p a {
+  color: var(--main-color-alt);
+}
+.btn1 {
+  border: none;
+  background-color: var(--main-color-alt);
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn2 {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text .p {
+  color: var(--main-color);
+}
+.header .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.get {
+  color: var(--main-color-alt);
+  border: 1px solid var(--main-color-alt);
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+}
+.header .container nav a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 0 30px;
+}
+.container {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.landing {
+  position: relative;
+}
+
+.landing::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #e2f1ff, #ffffff);
+  z-index: -1;
+  transform: skewY(-4deg);
+  transform-origin: top left;
+}
+.landing .container {
+  min-height: calc(100vh - 184px);
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.landing .text {
+  flex: 1;
+}
+.Qubly .p1 {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  background-color: #bda0e5;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 45%;
+}
+.Qubly {
+  text-align: center;
+}
+.Qubly .p2 {
+  color: var(--main-color);
+}
+.gap {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.gap p {
+  color: var(--main-color);
+}
+.gap .one {
+  width: 200px;
+}
+.launch {
+  width: 50%;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+.launch .for {
+  display: flex;
+  background-color: #ddc9fa;
+  width: 30%;
+  border-radius: 50px;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--main-color-alt);
+}
+.launch > p {
+  color: var(--main-color);
+}
+.data .container {
+  display: flex;
+}
+.data .for {
+  display: flex;
+  background-color: #ddc9fa;
+  width: 40%;
+  border-radius: 50px;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--main-color-alt);
+  margin-top: 100px;
+}
+
+.love {
+  position: relative;
+  text-align: center;
+}
+.love::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 130%;
+  background: #f2f2f2;
+  z-index: -1;
+  transform: skewY(-2deg);
+  transform-origin: top left;
+}
+.love .container .image {
+  margin: 50px 0 100px;
+}
+.login .container .right h1 hr {
+  width: 50px;
+  color: red;
+}
+
+.login .container .form {
+  width: 250px;
+  height: 380px;
+  background: rgb(220, 125, 125);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.login .container .box {
+  position: relative;
+}
+.login .container .box::before,
+.login .container .box::after {
+  content: "";
+  position: absolute;
+  background-color: #f72424;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #e7f4ff47;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-top: 50px;
+}
+.footer .container .box1 {
+  width: 15%;
+  margin-top: 23px;
+}
+.footer .container .box1 .icon img {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.footer .container p {
+  font-size: 12px;
+}
+.footer .p {
+  text-align: center;
+  font-weight: bold;
+}
